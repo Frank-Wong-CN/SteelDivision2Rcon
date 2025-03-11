@@ -188,6 +188,8 @@ CONFIG_OPTIONS(Map, "_4x2_Vistula_Gora_Kalwaria_LD_4v4", "Gora Kalwaria #4v4")
 CONFIG_OPTIONS(Map, "_4x2_tannenberg_10vs10", "Tannenberg #10vs10")
 CONFIG_OPTIONS(Map, "_4x2_Tannenberg_LD_1v1", "Tannenberg #1v1")
 CONFIG_OPTIONS(Map, "_4x2_Tannenberg_LD_2v2", "Tannenberg #2v2")
+CONFIG_OPTIONS(Map, "_2x3_Valley_Of_Death_LD_3v3", "Valley of Death #2v2")
+CONFIG_OPTIONS(Map, "_4x2_Dukla_Pass_LD_4v4", "Dukla Pass #4v4")
 
 #ifndef MAP_TAG
 #define MAP_TAG(M, CONQUEST, BREAKTHROUGH, CLOSEQUARTER, DESTRUCTION, SMALL, MEDIUM, LARGE, VERYLARGE)
@@ -253,4 +255,6 @@ MAP_TAG("_4x2_Vistula_Gora_Kalwaria_LD_4v4", 1, 1, 1, 1, 0, 0, 0, 1);
 MAP_TAG("_4x2_tannenberg_10vs10", 1, 0, 0, 0, 0, 0, 0, 1);
 MAP_TAG("_4x2_Tannenberg_LD_1v1", 1, 1, 1, 0, 1, 0, 0, 0);
 MAP_TAG("_4x2_Tannenberg_LD_2v2", 1, 1, 1, 0, 1, 0, 0, 0);
+MAP_TAG("_2x3_Valley_Of_Death_LD_3v3", 1, 1, 1, 1, 0, 0, 1, 0);
+MAP_TAG("_4x2_Dukla_Pass_LD_4v4", 1, 1, 1, 1, 0, 0, 0, 1);
 
